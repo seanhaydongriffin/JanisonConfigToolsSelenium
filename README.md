@@ -8,7 +8,7 @@ AssessmentConfigExport.exe /config:PBTS_SIT.config
 
 ## 1.2 Creating a new PBTS SIT tenant
 
-__Change "smita" and "xx" below to name the tenant as desired__
+_Change "smita" and "xx" below to name the tenant as desired_
 
 - Copy newpbts_sit.config as smitapbtsxx_alpha.config
 - Edit smitapbtsxx_alpha.config and change 
@@ -17,7 +17,7 @@ __Change "smita" and "xx" below to name the tenant as desired__
 
 ## 1.2 Creating a new PBTS ALPHA tenant
 
-__Change "smita" and "xx" below to name the tenant as desired__
+_Change "smita" and "xx" below to name the tenant as desired_
 
 - Copy newpbts_alpha.config as smitapbtsxx_alpha.config
 - AssessmentTenantCreate.exe /config:smitapbtsxx_alpha.config
