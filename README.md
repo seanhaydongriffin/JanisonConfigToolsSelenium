@@ -1,12 +1,16 @@
 # JanisonConfigToolsSelenium
 
-# 1. PBTS
+# 1. Installation
 
-## 1.1 Exporting PBTS SIT tenant
+
+
+# 2. PBTS tenants
+
+## 2.1 Exporting PBTS SIT tenant
 
 AssessmentConfigExport.exe /config:PBTS_SIT.config
 
-## 1.2 Creating a new PBTS SIT tenant
+## 2.2 Creating a new PBTS SIT tenant
 
 _Change "smita" and "xx" below to name the tenant as desired_
 
@@ -15,7 +19,7 @@ _Change "smita" and "xx" below to name the tenant as desired_
 - AssessmentTenantCreate.exe /config:smitapbtsxx_sit.config
 - AssessmentConfigUpdate.exe /config:smitapbtsxx_sit.config
 
-## 1.2 Creating a new PBTS ALPHA tenant
+## 2.2 Creating a new PBTS ALPHA tenant
 
 _Change "smita" and "xx" below to name the tenant as desired_
 
