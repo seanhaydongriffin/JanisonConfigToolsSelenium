@@ -2,7 +2,7 @@
 
 # 1. Installation
 
-
+To install the tool [click here](https://github.com/seanhaydongriffin/JanisonConfigToolsSelenium/releases).
 
 # 2. PBTS tenants
 
