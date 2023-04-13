@@ -14,16 +14,17 @@ To install the tool [click here](https://github.com/seanhaydongriffin/JanisonCon
 
 _Change "smita" and "xx" below to name the tenant as desired_
 
-- Copy __`newpbts_sit.config`__ as __smitapbtsxx_alpha.config__
-- Edit __smitapbtsxx_alpha.config__ and change __appSettings.Datapool Merged Folder__ to the path of the datapools to update and __LocalTenant.Url__ to the Url for the new tenant
-- AssessmentTenantCreate.exe /config:smitapbtsxx_sit.config
-- AssessmentConfigUpdate.exe /config:smitapbtsxx_sit.config
+- Copy `newpbts_sit.config` as `smitapbtsxx_sit.config`
+- Edit `smitapbtsxx_sit.config` and change __appSettings.Datapool Merged Folder__ to the path of the datapools to update and __LocalTenant.Url__ to the Url for the new tenant
+- `AssessmentTenantCreate.exe /config:smitapbtsxx_sit.config`
+- `AssessmentConfigUpdate.exe /config:smitapbtsxx_sit.config`
 
 ## 2.2 Creating a new PBTS ALPHA tenant
 
 _Change "smita" and "xx" below to name the tenant as desired_
 
-- Copy newpbts_alpha.config as smitapbtsxx_alpha.config
-- AssessmentTenantCreate.exe /config:smitapbtsxx_alpha.config
-- AssessmentConfigUpdate.exe /config:smitapbtsxx_alpha.config
+- Copy `newpbts_alpha.config` as `smitapbtsxx_alpha.config`
+- Edit `smitapbtsxx_alpha.config` and change __appSettings.Datapool Merged Folder__ to the path of the datapools to update and __LocalTenant.Url__ to the Url for the new tenant
+- `AssessmentTenantCreate.exe /config:smitapbtsxx_alpha.config`
+- `AssessmentConfigUpdate.exe /config:smitapbtsxx_alpha.config`
 
